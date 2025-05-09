@@ -8,7 +8,7 @@
 body{
     width: 1440px;
     height: 6089px;
-    background-color: #1A1A1;
+    background-color: #1A1A1A;
     font-family: 'Lexend', sans-serif;
 }
 p,h1{
@@ -61,11 +61,12 @@ p,h1{
 }
 .nav .right-sectain a{
     height: 21px;
-    width: 61px;
+    width: 71px;/*here*/
     font-size: 14px;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0%;
+    align-items: center;
 }
 .nav .nav-links a{
     border-radius: 40px;
@@ -447,7 +448,7 @@ p,h1{
     
 }
 .Job-Openings .container #card1 button{
-    width: 115px;
+    width: 117px;/*here*/
     height: 45px;
     border-radius: 82px;
     padding: 12px 20px 12px 20px;
@@ -602,7 +603,7 @@ p,h1{
 }
 
 .Job-Openings .container #card2 button{
-    width: 115px;
+    width: 117px;/*here*/
     height: 45px;
     border-radius: 82px;
     padding: 12px 20px 12px 20px;
@@ -722,7 +723,7 @@ p,h1{
     color: #B3B3B3;
 }
 .Job-Openings .container #card3 button{
-    width: 115px;
+    width: 117px;/*here*/
     height: 45px;
     border-radius: 82px;
     padding: 12px 20px 12px 20px;
@@ -908,7 +909,7 @@ p,h1{
     background-color: #262626;
 }
 .Frequently .contant button{
-    width: 155px;
+    width: 157px;/*here*/
     height: 49px;
     border-radius: 100px;
     border: 1px solid #262626;
@@ -966,7 +967,7 @@ p,h1{
     letter-spacing: 0%;
 }
 .your-caree button{
-    width: 139px;
+    width: 140px;/*here*/
     height: 49px;
     border-radius: 82px;
     padding: 14px 20px 14px 20px;
@@ -1137,7 +1138,7 @@ footer .about-us .center-section p{
     margin-bottom: 0;
 }
 footer .about-us .right-sectain{
-    width: 217px;
+    width: 225px;/*here*/
     height: 21px;
     gap: 8px;
     display: flex;
@@ -1492,7 +1493,7 @@ footer .about-us .right-sectain .line{
         padding: 24px !important;
         display: grid;
         margin-left: 0;
-        gap: 45 !important;
+        gap: 30px !important;/*here*/
     }
     .Job-Openings #card2 .contant .info2{
         width: 310px !important;
@@ -1518,6 +1519,7 @@ footer .about-us .right-sectain .line{
     .Job-Openings #card2 .contant .about{
         width: 310px;
         height: 578px;
+        gap: 8px !important;/*here*/
     }
     .Job-Openings #card2 .contant .about .info3{
         width: 310px !important;
@@ -1566,7 +1568,7 @@ footer .about-us .right-sectain .line{
     .Job-Openings .container #card2 .contant{
         width: 310px !important;
         height: 720px !important;
-        gap: 0 !important;
+        gap: 1px !important;/*here*/
     }
     .Job-Openings #card2 .contant .about .Requirements .Requirements_1{
         width:310px ;
@@ -1607,7 +1609,7 @@ footer .about-us .right-sectain .line{
         width: 358px !important;
         height: 843px !important;
         padding: 24px !important;
-        gap: 45px !important;
+        gap: 30px !important;/*here*/
         display: grid;
         margin-left: 0;
     }
@@ -1634,6 +1636,7 @@ footer .about-us .right-sectain .line{
     .Job-Openings #card3 .contant .about{
         width: 310px;
         height: 578px;
+        gap: 8px !important;/*here*/
     }
     .Job-Openings #card3 .contant .about .info3{
         width: 310px !important;
@@ -1683,7 +1686,7 @@ footer .about-us .right-sectain .line{
     .Job-Openings .container #card3 .contant{
         width: 310px !important;
         height: 720px !important;
-        gap: 0 !important;
+        gap: 1px !important;/*here*/
     }
     .Job-Openings #card3 .contant .about .Requirements .Requirements_1{
         width:310px ;
@@ -1866,7 +1869,7 @@ footer .about-us .right-sectain .line{
         width: 147px;
         padding: 14px 24px 14px 24px;
         margin-left: 77px;
-        margin-top: 24px;
+        margin-top: 12px;/*here*/
     }
     footer{
         top:8316px !important ;
