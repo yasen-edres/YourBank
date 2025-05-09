@@ -1,0 +1,1996 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+body{
+    width: 1440px;
+    height: 6089px;
+    background-color: #1A1A1A;
+    font-family: 'Lexend', sans-serif;
+}
+p,h1{
+    margin-bottom: 0 !important;/*for bootstrap*/
+}
+.nav .logo{
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .nav-links{
+    gap: 26px;
+    align-items: center;
+    display: flex;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    background: #1c1c1c;
+    padding: 0 50px;
+    border-radius: 50px;
+    width:1280px ;
+    height: 73px;
+    top: 30px;
+    left: 110px;
+}
+.nav .right-sectain button{
+    background:#CAFF33 ;
+    width: 87px;
+    height: 45px;
+    border-radius: 82px;
+    padding: 3px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    gap: 10px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.nav .right-sectain {
+    height: 45px;
+    width: 161px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.nav .right-sectain a{
+    height: 21px;
+    width: 61px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.nav .nav-links a{
+    border-radius: 40px;
+    transition: all 0.3 ease;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.nav .nav-links a:hover{
+    background: #262626;
+}
+.welcom-secation{
+    position: absolute;
+    width: 1279px;
+    height: 648px;
+    background: #1c1c1c;
+    padding: 40px ;
+    border-radius: 20px;
+    left: 111px;
+    top: 153px;
+}
+.welcom-secation img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.welcom-secation .info .photo img{
+    width: 715px;
+    height: 568px;
+    filter: grayscale(100%);
+    border-radius: 16px;
+    position: relative;
+    right: -173px;
+}
+.welcom-secation .info .text{
+    width:658px ;
+    height: 408px;
+    color: #ffffff;
+    background:  #1A1A1A;
+    padding: 60px;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 20px 0 60px 20px;
+    gap: 20px;
+}
+.welcom-secation .info .photo{
+    transform: translateX(310px);
+}
+.welcom-secation .info .text h1 span{
+    color: #CAFF33;
+}
+.welcom-secation .info .text p{
+    color: #838383;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.welcom-secation .info .text h1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-values{
+    width: 1280px;
+    height: 563px;
+    gap: 60px;
+    position: absolute;
+    top:921px;
+    left: 110px;
+    display: grid;
+}
+.our-values .info{
+    gap: 10px;
+    width: 1280px;
+    height: 115px;
+    padding-right: 150px;
+}
+.our-values .info h1{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-values .info h1 span{
+    color: #CAFF33;
+}
+.our-values .info p{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-values .container{
+    gap: 60px;
+    width: 1280px;
+    height: 388px;
+    display: grid;
+}
+.our-values .container .col-md-6{
+    width: 610px;
+    height: 176px;
+    gap: 20px;
+    border-left: 1px #CAFF33 solid;
+    padding-left: 40px;
+    display: grid;
+} 
+.our-values .container .row .col-md-6 h1{
+    color: #4C4C4D;
+}
+.our-values .container .col-md-6 p{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 500px;
+} 
+.our-Benefits{
+    width: 1280px;
+    height: 787px;
+    display: grid;
+    gap: 60px;
+    position: absolute;
+    top: 1604px;
+    left: 110px;
+}
+.our-Benefits .info{
+    width: 1280px;
+    height: 115px;
+    gap: 10px;
+    padding-right: 250px;
+}
+.our-Benefits .info h1{
+    font-size: 38px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-Benefits .info h1 span{
+    color: #CAFF33;
+}
+.our-Benefits .info p{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-Benefits .container{
+    width: 1280px;
+    height: 612px;
+    display: grid;
+    gap: 30px;
+}
+.our-Benefits .container .row .col-md-6{
+    height: 276px;
+    width: 610px;
+    background-color: #1c1c1c;
+    padding: 40px;
+    gap: 24px;
+    border-radius: 30px;
+    display: grid;
+    border: 1px solid #26262600;
+}
+.our-Benefits .container .row .col-md-6 .cardd {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background-color: #1c1c1c;
+}
+.our-Benefits .container .row .col-md-6 .cardd img{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    padding: 12px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.our-Benefits .container .row .col-md-6 .cardd .icon_container .icon{
+    height: 74px;
+    width: 74px;
+    border-radius: 50px;
+    padding: 20px;
+    gap: 10px;
+}
+.our-Benefits .container .row .col-md-6 .cardd  h1{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-Benefits .container .row .col-md-6 .paragraph p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.our-Benefits .container .row{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    gap: 30px;
+}
+.our-Benefits .container .row .line{
+    position: relative;
+}
+.our-Benefits .container .row .line::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    border-right:2px dashed #262626 ;
+}
+.our-Benefits .container .H-line{
+    position: relative;
+}
+.our-Benefits .container .H-line:nth-child(2):before{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    border-bottom: 2px dashed #262626;
+}
+.Job-Openings{
+    width: 1280px;
+    height: 1745px;
+    gap: 60px;/*not work*/
+    position: absolute;
+    left: 110px;
+    top: 2511px;
+    display: grid;
+}
+
+.Job-Openings .info{
+    width: 1280px;
+    height: 115px;
+    padding-right: 250px;
+    gap: 10px;
+}
+.Job-Openings .info h1{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #CAFF33;
+}
+.Job-Openings .info p{
+    font-weight: 300;
+    font-size: 16;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+}
+.Job-Openings .container{
+    display: flex;
+    width: 1280px;
+    height: 1570px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Job-Openings .container #card1{
+    width: 630px;
+    height: 763px;
+    border-radius: 16px;
+    border: 1px solid #262626;
+    padding: 40px;
+    gap: 45px;
+    background-color: #1C1C1C;
+    display: grid;
+}
+.Job-Openings .container #card1 .contant{
+    width: 550px;
+    height: 598px;
+    gap: 40px;
+    display: grid;
+}
+.Job-Openings .container #card1 .contant .info2{
+    width: 550px;
+    gap: 10px;
+    display: grid;
+}
+.Job-Openings .container #card1 .contant .info2 h1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.Job-Openings .container #card1 .contant .info2 div{
+    align-items: center;
+    display: flex;
+    width:393px ;
+    height: 36px;
+    gap: 8px;
+}
+.Job-Openings .container #card1 .contant .info2 div .Relationship-1{
+    width: 187px;
+    height: 36px;
+    border-radius: 68px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    padding: 6px 14px 6px 14px;
+    gap: 10px;
+}
+.Job-Openings .container #card1 .contant .info2 div .Relationship-2{
+    width: 242px;
+    height: 36px;
+    border-radius: 68px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    padding: 6px 14px 6px 14px;
+    gap: 10px;
+}
+.Job-Openings .container #card1 .contant .info2 div span{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.Job-Openings .container #card1 .contant .about{
+    width: 550px;
+    height: 476px;
+    gap: 34px;
+    display: grid;
+}
+.Job-Openings .container #card1 .contant .about .info3{
+    width:550px ;
+    height: 190px;
+    gap: 16px;
+    display: grid;
+}
+.Job-Openings .container #card1 .contant .about .info3 h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card1 .contant .about .info3 p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+    width: 550px;
+    height: 144px;
+}
+.Job-Openings .container #card1 .contant .about .Requirements h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card1 .contant .about .Requirements img{
+    width: 22px;
+    height: 18px;
+    margin-right: 10px;
+}
+.Job-Openings .container #card1 .contant .about .Requirements p{
+    gap: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+    
+}
+.Job-Openings .container #card1 button{
+    width: 115px;
+    height: 45px;
+    border-radius: 82px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    background-color: #CAFF33;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+.Job-Openings .container #card2{
+    width: 630px;
+    height: 763px;
+    border-radius: 16px;
+    border: 1px solid #262626;
+    padding: 40px;
+    background-color: #1C1C1C;
+    margin-left: 20px;
+    display: grid;
+}
+.Job-Openings .container #card2 .contant .info2{
+    gap: 10px;
+    display: grid;
+}
+.Job-Openings .container #card2 .contant .info2 h1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 550px;
+}
+.Job-Openings .container #card2 .contant .about{
+    height: 452px;
+    gap: 40px;
+    display: grid;
+
+}
+.Job-Openings .container #card2 .contant .info2 div .Relationship-1{
+    width: 143px;
+    height: 36px;
+    background-color: #1A1A1A;
+    border-radius: 68px;
+}
+.Job-Openings .container #card2 .contant .info2 div .Relationship-2{
+    width: 269px;
+    height: 36px;
+    background-color: #1A1A1A;
+    border-radius: 68px;
+}
+.Job-Openings .container #card2 .contant .info2 div{
+    align-items: center;
+    display: flex;
+    width:269px ;
+    gap: 8px;
+}
+.Job-Openings .container #card2 .contant{
+    height: 598px;
+    gap: 40px;
+    display: grid;
+}
+.Job-Openings .container #card2 .contant .info2 div span{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 269px;
+}
+.Job-Openings .container #card2 .contant .about .info3{
+    width:550px ;
+    height: 166px;
+    gap: 16px;
+}
+.Job-Openings .container #card2 .contant .about .info3 h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card2 .contant .about .info3 p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+    width: 550px;
+    height: 120px;
+}
+.Job-Openings .container #card2 .contant .about .Requirements h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card2 .contant .about .Requirements img{
+    width: 22px;
+    height: 18px;
+    margin-right: 10px;
+}
+.Job-Openings .container #card2 .contant .about .Requirements p{
+    gap: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+}
+.Job-Openings .contant .about .Requirements{
+    width: 550px!important;
+    height:246px !important;
+    gap: 16PX;
+    display: grid;
+}
+.Job-Openings .contant .about .Requirements .Requirements_1{
+    width:550px ;
+    height: 24px;
+    gap:8px; 
+    display: flex;
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_2{
+    width: 550px;
+    height: 48px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_3{
+    width: 550px;
+    height: 24px;
+    gap: 8px;
+    display: flex; 
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_4{
+    width: 550px;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_5{
+    width: 550px;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.Job-Openings .container #card2 button{
+    width: 115px;
+    height: 45px;
+    border-radius: 82px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    background-color: #CAFF33;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+} 
+.Job-Openings .container #card3{
+    width: 630px;
+    height: 787px;
+    border-radius: 16px;
+    border: 1px solid #262626;
+    padding: 40px;
+    gap: 40px;
+    background-color: #1C1C1C;
+    display: grid;
+}
+.Job-Openings .container #card3 .contant{
+    width: 550px;
+    height: 622px;
+    gap: 40px;
+    display: grid;
+}
+.Job-Openings .container #card3 .contant .info2{
+    width: 550px;
+    gap: 10px;
+    display: grid;
+}
+.Job-Openings .container #card3 .contant .info2 h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card3 .contant .info2 div{
+    align-items: center;
+    display: flex;
+    width:464px ;
+    height: 36px;
+    gap: 8px;
+}
+.Job-Openings .container #card3 .contant .info2 div .Relationship-1{
+    width: 143px;
+    height: 36px;
+    border-radius: 68px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    padding: 6px 14px 6px 14px;
+    gap: 10px;
+}
+.Job-Openings .container #card3 .contant .info2 div .Relationship-2{
+    width: 313px;
+    height: 36px;
+    border-radius: 68px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    padding: 6px 14px 6px 14px;
+    gap: 10px;
+}
+.Job-Openings .container #card3 .contant .info2 div span{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.Job-Openings .container #card3 .contant .about{
+    width: 550px;
+    height: 500px;
+    gap: 40px;
+    display: grid;
+}
+.Job-Openings .container #card3 .contant .about .info3{
+    width:550px ;
+    height: 214px;
+    gap: 16px;
+}
+.Job-Openings .container #card3 .contant .about .info3 h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card3 .contant .about .info3 p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+    width: 550px;
+    height: 168px;
+}
+.Job-Openings .container #card3 .contant .about .Requirements h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Job-Openings .container #card3 .contant .about .Requirements img{
+    width: 22px;
+    height: 18px;
+    margin-right: 10px;
+}
+.Job-Openings .container #card3 .contant .about .Requirements p{
+    gap: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+}
+.Job-Openings .container #card3 button{
+    width: 115px;
+    height: 45px;
+    border-radius: 82px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    background-color: #CAFF33;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+.Frequently{
+    width: 1279px;
+    height: 810px;
+    position: absolute;
+    top: 4376px;
+    left: 111px;
+    gap: 60px;
+    display: grid;/*to use gap*/
+}
+.Frequently .info{
+    width: 1279px;
+    height: 91px;
+    padding-right: 300px;
+    gap: 10px;
+}
+.Frequently .info h1{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Frequently .info span{
+    color: #CAFF33;
+}
+.Frequently .info p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.Frequently .contant{
+    width: 1279px;
+    height: 659px;
+}
+.Frequently .contant .container{
+    width: 1279px;
+    height: 610px;
+    gap: 20px;
+    display: grid;/*to use gap*/
+}
+.Frequently .contant .container .row{
+    display: flex;
+    width: 1279px;
+    height: 295px;
+    gap: 20px;
+}
+.Frequently .contant .container .row #card1{
+    width: 629.5px;
+    height: 295px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    padding: 40px;
+    display: grid;/*to use gap*/
+}
+.Frequently .contant .container .row #card1 h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Frequently .contant .container .row #card1 .line{
+    width: 549.5px;
+    height: 1px;
+    background-color: #262626;
+}
+.Frequently .contant .container .row #card1 p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.Frequently .contant .container .row #card2{
+    width: 629.5px;
+    height: 295px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    padding: 40px;
+    gap: 24px;
+    display: grid;/*to use gap*/
+}
+.Frequently .contant .container .row #card2 h1{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Frequently .contant .container .row #card2 p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.Frequently .contant .container .row #card2 .line{
+    width: 549.5px;
+    height: 1px;
+    background-color: #262626;
+}
+.Frequently .contant .container .row{
+    display: flex;
+    width: 1279px;
+    height: 295px;
+    gap: 20px;
+}
+.Frequently .contant .container .row #card3{
+    width: 629.5px;
+    height: 271px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    padding: 40px;
+    gap: 24px;
+    display: grid;/*to use gap*/
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+-webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 50%, rgba(0,0,0,0)100%);/*to oppicty for border*/
+}
+.Frequently .contant .container .row #card3 h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Frequently .contant .container .row #card3 p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0,0.1)100%);
+}
+.Frequently .contant .container .row #card3 .line{
+    width: 549.5px;
+    height: 1px;
+    background-color: #262626;
+}
+.Frequently .contant .container .row #card4{
+    width: 629.5px;
+    height: 295px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    padding: 40px;
+    gap: 24px;
+    display: grid;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+-webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 50%, rgba(0,0,0,0)100%);/*to oppicty for border*/
+}
+.Frequently .contant .container .row #card4 h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.Frequently .contant .container .row #card4 p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0,0.1)100%);
+}
+.Frequently .contant .container .row #card4 .line{
+    width: 549.5px;
+    height: 1px;
+    background-color: #262626;
+}
+.Frequently .contant button{
+    width: 155px;
+    height: 49px;
+    border-radius: 100px;
+    border: 1px solid #262626;
+    padding: 14px 20px 14px 20px;
+    gap: 4px;
+    background-color: #1C1C1C;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-left: 562px;
+}
+.your-caree{
+    width: 1280px;
+    height: 223px;
+    position: absolute;
+    top: 5306px;
+    left: 110px;
+    border-radius: 20px;
+    border: 1px solid #262626;
+    background-color: #1C1C1C;
+    padding: 60px;
+    gap: 150px;
+    display: flex;
+    align-items: center;
+}
+.your-caree img{
+    width: 202px;
+    height: 192px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.your-caree .info{
+    width: 874px;
+    height: 103px;
+    gap: 10px;
+}
+.your-caree .info h1{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.your-caree .info h1 span{
+    color: #CAFF33;
+}
+.your-caree .info p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.your-caree button{
+    width: 139px;
+    height: 49px;
+    border-radius: 82px;
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    background-color: #CAFF33;
+    color: #1C1C1C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+footer{
+    width: 100%;
+    height: 440px;
+    position: absolute;
+    top: 5649px;
+    padding: 60px 80px 30px 80px;
+    gap: 40px;
+    background: #1C1C1C;
+    display: grid;
+}
+footer .info{
+    width: 1280px;
+    height: 98px;
+    gap: 40px;
+    display: grid;
+}
+footer .info .logo{
+    width: 132.46px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 573px;
+}
+footer .info .logo img:first-of-type{
+    width: 34px;
+    height: 34px;
+}
+footer .info .logo h1{
+    height: 94.91666412353516px;
+    height:15.583333015441895px ;
+    position: absolute;
+    top: 9.21px;
+    left: 37.54px;
+}
+footer .info .nav-links{
+    width: 260px;
+    height: 24px;
+    gap: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 510px;
+
+}
+footer .info .nav-links a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #E4E4E7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+footer .line{
+    width: 1280px;
+    height: 1px;
+    background-color: #262626;
+}
+footer .contact-us{
+    display: flex;
+    justify-content: space-around;
+    width: 1280px;
+    height: 24px;
+    gap: 20px;
+}
+footer .contact-us .email{
+    display: flex;
+    align-items: center;
+    width: 195PX;
+    height: 24px;
+    border-radius: 6px;
+    gap: 6px;
+}
+footer .contact-us .email img{
+    width: 20px;
+    height: 20px;
+}
+footer .contact-us .email p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #E4E4E7;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+footer .contact-us .phone{
+    display: flex;
+    align-items: center;
+    width: 162px;
+    height: 24px;
+    border-radius: 6px;
+    gap: 6px;
+}
+footer .contact-us .phone img{
+    width: 20px;
+    height: 20px;
+}
+footer .contact-us .phone p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #E4E4E7;
+    margin-bottom: 0;
+}
+footer .contact-us .location{
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 24px;
+    border-radius: 6px;
+    gap: 6px;
+}
+footer .contact-us .location img{
+    width: 20px;
+    height: 20px;
+}
+footer .contact-us .location p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #E4E4E7;
+    margin-bottom: 0;
+}
+footer .about-us{
+    width: 1280px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px 12px 12px;
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    border-radius: 100px;
+}
+footer .about-us .left-section{
+    width: 184px;
+    height: 52px;
+    gap: 14px;
+    display: flex;
+    align-items: center;
+}
+footer .about-us .left-section img{
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    padding: 12px;
+    gap: 10px;
+    background-color: #CAFF33;
+}
+footer .about-us .center-section p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #B3B3B3;
+    margin-bottom: 0;
+}
+footer .about-us .right-sectain{
+    width: 217px;
+    height: 21px;
+    gap: 8px;
+    display: flex;
+}
+footer .about-us .right-sectain p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #B3B3B3;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+footer .about-us .right-sectain .line{
+    width: 1px !important;
+    height: 21px;
+    background-color: #B3B3B3;
+}
+@media (max-width:570px){
+    .nav{
+        width: 358px;
+        height: 68px;
+        position: absolute;
+        top: 40px;
+        left: 16px;
+        border-radius: 100px;
+        display: flex;
+        border: 1px solid #262626;
+    }
+    .nav .nav-links{
+        display: none;
+    }
+    .nav .right-sectain{
+        width: 56px;
+        height: 40px;
+        border-radius: 82px;
+        padding: 6px 14px 6px 14px;
+        gap: 10px;
+        background-color: #CAFF33;
+    }
+    .nav .right-sectain img{
+        width: 28px;
+        height: 28px;
+    }
+    .nav .right-sectain button{
+        display: none;
+    }
+    .nav .right-sectain a{
+        display: none;
+    }
+    .nav .logo{
+        align-items: center;
+    }
+    .nav .logo img{
+        width: 26px;
+        height: 26px;
+    }
+    .nav .logo img:nth-of-type(2){
+        width: 72.58px;
+        height: 11.91px;
+        border-radius: 0;
+    }
+    .nav .logo{
+        justify-content: center;
+        gap: 2.5px;
+    }
+    .welcom-secation{
+        width: 357px;
+        height: 605px;
+        position: absolute;
+        top: 138px;
+        left: 17px;
+        border-radius: 20px;
+        padding: 14px;
+    }
+    .welcom-secation img{
+        width: 199px;
+        height: 189px;
+    }
+    .welcom-secation .info{
+        display: grid;
+    }
+    .welcom-secation .info .photo img{
+        width: 329px;
+        height: 253px;
+        border-radius: 16px;
+        position: absolute;
+        right: -19.7px;
+    }
+    .welcom-secation .info .text{
+        width: 329px;
+        height: 365px;
+        border-radius: 20px;
+        gap: 14px;
+        padding: 24px;
+        top: 212px;
+    }
+    .welcom-secation .info .text h1{
+        font-size: 28px;
+        line-height: 130%;
+        text-align: center;
+    }
+    .welcom-secation .info .text p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .our-values{
+        width: 358px;
+        height: 1034px;
+        left: 17px;
+        top: 823px;
+    }
+    .our-values .info{
+        width: 358px;
+        height: 178px;
+        gap: 10px;
+    }
+    .our-values .info h1{
+        width: 358px;
+        height: 42px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .our-values .info p{
+        font-size: 14px;
+        width: 358px;
+        height: 126px;
+        text-align: center;
+    }
+    .our-values .container{
+        width: 358px;
+        height: 806px;
+        gap: 50px;
+        display: grid;
+    }
+    .our-values .container .row{
+        display: grid;
+        gap: 50px;
+    }
+    .our-values .container .col-md-6{
+        width: 358px;
+        height: 164px;
+        padding-left: 10px !important;
+    }
+    .our-values .container .col-md-6 h1{
+        font-size: 30px;
+    }
+    .our-values .container .col-md-6 p{
+        font-size: 14px;
+        width: 338px;
+        height: 105px;
+    }
+    .our-Benefits{
+        width: 358px;
+        height: 1362px;
+        top: 1937px;
+        left: 17px;
+        gap: 60px;
+        display: grid;
+    }
+    .our-Benefits .info{
+        width: 358px;
+        height: 136px;
+        padding-right: 0;
+    }
+    .our-Benefits .info h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .our-Benefits .info p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .our-Benefits .container{
+        display: grid;
+        width:358px ;
+        height: 1166px;
+        gap: 24px;
+    }
+    .our-Benefits .container .row{
+        display: inline;
+        gap: 24px;
+        width: 358px;
+        height: 245px;
+    }
+    .our-Benefits .container .row .col-md-6{
+        width: 358px;
+        height: 245px;
+        padding: 24px;
+        margin-bottom: 48px;
+    }
+    .our-Benefits .container .row .col-md-6 .cardd h1{
+        font-size: 18px;
+    }
+    .our-Benefits .container .row .col-md-6 .paragraph  p{
+        font-size: 14px;
+        width: 310px;
+        height: 105px;
+    }
+    .our-Benefits .container .H-line{
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .Job-Openings{
+        width: 358px;
+        height: 2723px;
+        top: 3379px !important;
+        left: 17px !important;
+        gap: 60px !important;
+    }
+    .Job-Openings .info{
+        width: 358px;
+        height: 136px;
+        gap: 10px;
+        padding-right: 0;
+        display: grid;
+    }
+    .Job-Openings .info h1{
+        font-size: 28px !important;
+        width: 358px;
+        text-align: center;
+    }
+    .Job-Openings .info p{
+        font-size: 14px;
+        width: 358px;
+        height: 84px;
+        text-align: center;
+    }
+    .Job-Openings .container{
+        width: 358px;
+        height: 2527px;
+        gap: 20px;
+    }
+    .Job-Openings .container .row{
+        gap: 20px;
+    }
+    .Job-Openings .container #card1{
+        width: 358px !important;
+        height: 843px !important;
+        padding: 24px !important;
+    }
+    .Job-Openings #card1 .contant .info2{
+        width: 310px !important;
+        height: 112px;
+        gap: 0;
+    }
+    .Job-Openings #card1 .contant .info2 h1{
+        width: 310px;
+        height: 30px;
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .Job-Openings #card1 .contant .info2 span{
+        font-size: 14px !important;
+    }
+    .Job-Openings #card1 .contant .info2 div{
+        width: 310px;
+        height: 72px;
+        display: grid !important;
+        gap: 6px;
+    }
+    .Job-Openings #card1 .contant .about{
+        width: 310px;
+        height: 578px;
+    }
+    .Job-Openings #card1 .contant .about .info3{
+        width: 310px !important;
+        height: 224px !important;
+        gap: 8px !important;
+    }
+    .Job-Openings #card1 .contant .about .info3 h1{
+        font-size: 18px!important;
+        width:310px !important;
+        height: 27px!important;
+    }
+    .Job-Openings #card1 .contant .about .info3 p{
+        font-size: 14px!important;
+        width: 310px!important;
+        height: 189px!important;
+    }
+    .Job-Openings #card1 .contant .about .Requirements{
+        width: 310px!important;
+        height:324px !important;
+        gap: 0;
+        display: grid;
+    }
+    .Job-Openings #card1 .contant .about .Requirements h1{
+        width:310px !important;
+        height:27px !important;
+        font-size:18px !important;
+    }
+    .Job-Openings #card1 .contant .about .Requirements p{
+        font-size:14px !important;
+    }
+    .Job-Openings .container #card1 button{
+        width: 117px;
+        height: 45px;
+        border-radius: 82px;
+    }
+    .Job-Openings .container #card1 .contant .info2 div .Relationship-1{
+        width: 133px;
+        height: 33px;
+        border-radius: 68px;
+    }
+    .Job-Openings .container #card1 .contant .info2 div .Relationship-2{
+        width: 219px;
+        height: 33px;
+        border-radius: 68px;
+    }
+    .Job-Openings .container #card1 .contant{
+        width: 310px !important;
+        height: 720px !important;
+        gap: 0;
+    }
+    .Job-Openings #card1 .contant .about .Requirements .Requirements_1{
+        width:310px ;
+        height: 42px;
+        gap:8px; 
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card1 .contant .about .Requirements .Requirements_2{
+        width: 310px;
+        height: 63px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card1 .contant .about .Requirements .Requirements_3{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex; 
+        align-items: center;
+    }
+    .Job-Openings #card1 .contant .about .Requirements .Requirements_4{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card1 .contant .about .Requirements .Requirements_5{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings .container #card2{
+        width: 358px !important;
+        height: 843px !important;
+        padding: 24px !important;
+        display: grid;
+        margin-left: 0;
+        gap: 45 !important;
+    }
+    .Job-Openings #card2 .contant .info2{
+        width: 310px !important;
+        height: 112px;
+        margin-bottom: 0;
+        gap: 0;
+    }
+    .Job-Openings #card2 .contant .info2 h1{
+        width: 310px;
+        height: 30px;
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .Job-Openings #card2 .contant .info2 span{
+        font-size: 14px !important;
+    }
+    .Job-Openings #card2 .contant .info2 div{
+        width: 310px;
+        height: 72px;
+        display: grid !important;
+        gap: 6px;
+    }
+    .Job-Openings #card2 .contant .about{
+        width: 310px;
+        height: 578px;
+    }
+    .Job-Openings #card2 .contant .about .info3{
+        width: 310px !important;
+        height: 224px !important;
+        gap: 8px !important;
+    }
+    .Job-Openings #card2 .contant .about .info3 h1{
+        font-size: 18px!important;
+        width:310px !important;
+        height: 27px!important;
+    }
+    .Job-Openings #card2 .contant .about .info3 p{
+        font-size: 14px!important;
+        width: 310px!important;
+        height: 189px!important;
+    }
+    .Job-Openings #card2 .contant .about .Requirements{
+        width: 310px!important;
+        height:324px !important;
+        display: grid;
+        gap: 0;
+    }
+    .Job-Openings #card2 .contant .about .Requirements h1{
+        width:310px !important;
+        height:27px !important;
+        font-size:18px !important;
+    }
+    .Job-Openings #card2 .contant .about .Requirements p{
+        font-size:14px !important;
+    }
+    .Job-Openings .container #card2 button{
+        width: 117px;
+        height: 45px;
+        border-radius: 82px;
+    }
+    .Job-Openings .container #card2 .contant .info2 div .Relationship-1{
+        width: 133px;
+        height: 33px;
+        border-radius: 68px;
+    }
+    .Job-Openings .container #card2 .contant .info2 div .Relationship-2{
+        width: 219px;
+        height: 33px;
+        border-radius: 68px;
+    }
+    .Job-Openings .container #card2 .contant{
+        width: 310px !important;
+        height: 720px !important;
+        gap: 0 !important;
+    }
+    .Job-Openings #card2 .contant .about .Requirements .Requirements_1{
+        width:310px ;
+        height: 42px;
+        gap:8px; 
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card2 .contant .about .Requirements .Requirements_2{
+        width: 310px;
+        height: 63px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card2 .contant .about .Requirements .Requirements_3{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex; 
+        align-items: center;
+    }
+    .Job-Openings #card2 .contant .about .Requirements .Requirements_4{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card2 .contant .about .Requirements .Requirements_5{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings .container #card3{
+        width: 358px !important;
+        height: 843px !important;
+        padding: 24px !important;
+        gap: 45px !important;
+        display: grid;
+        margin-left: 0;
+    }
+    .Job-Openings #card3 .contant .info2{
+        width: 310px !important;
+        height: 112px;
+        margin-bottom: 0;
+    }
+    .Job-Openings #card3 .contant .info2 h1{
+        width: 310px;
+        height: 30px;
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .Job-Openings #card3 .contant .info2 span{
+        font-size: 14px !important;
+    }
+    .Job-Openings #card3 .contant .info2 div{
+        width: 310px;
+        height: 72px;
+        display: grid !important;
+        gap: 6px;
+    }
+    .Job-Openings #card3 .contant .about{
+        width: 310px;
+        height: 578px;
+    }
+    .Job-Openings #card3 .contant .about .info3{
+        width: 310px !important;
+        height: 224px !important;
+        gap: 8px !important;
+        margin-bottom: 30px;
+    }
+    .Job-Openings #card3 .contant .about .info3 h1{
+        font-size: 18px!important;
+        width:310px !important;
+        height: 27px!important;
+    }
+    .Job-Openings #card3 .contant .about .info3 p{
+        font-size: 14px!important;
+        width: 310px!important;
+        height: 189px!important;
+    }
+    .Job-Openings #card3 .contant .about .Requirements{
+        width: 310px!important;
+        height:324px !important;
+        display: grid;
+        gap: 0;
+    }
+    .Job-Openings #card3 .contant .about .Requirements h1{
+        width:310px !important;
+        height:27px !important;
+        font-size:18px !important;
+    }
+    .Job-Openings #card3 .contant .about .Requirements p{
+        font-size:14px !important;
+    }
+    .Job-Openings .container #card3 button{
+        width: 117px;
+        height: 45px;
+        border-radius: 82px;
+    }
+    .Job-Openings .container #card3 .contant .info2 div .Relationship-1{
+        width: 133px;
+        height: 33px;
+        border-radius: 68px;
+    }
+    .Job-Openings .container #card3 .contant .info2 div .Relationship-2{
+        width: 283px;
+        height: 33px;
+        border-radius: 68px;
+    }
+    .Job-Openings .container #card3 .contant{
+        width: 310px !important;
+        height: 720px !important;
+        gap: 0 !important;
+    }
+    .Job-Openings #card3 .contant .about .Requirements .Requirements_1{
+        width:310px ;
+        height: 42px;
+        gap:8px; 
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card3 .contant .about .Requirements .Requirements_2{
+        width: 310px;
+        height: 63px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card3 .contant .about .Requirements .Requirements_3{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex; 
+        align-items: center;
+    }
+    .Job-Openings #card3 .contant .about .Requirements .Requirements_4{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Job-Openings #card3 .contant .about .Requirements .Requirements_5{
+        width: 310px;
+        height: 42px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .Frequently{
+        top:6182px !important;
+        left: 17px !important;
+        gap: 50px;
+    }
+    .Frequently .info{
+        width: 357px;
+        height: 136px;
+    }
+    .Frequently .info h1{
+        margin-bottom: 10px !important;
+        font-size: 28px !important;
+        width: 357px;
+        height: 84px;
+    }
+    .Frequently .info p{
+        font-size: 14px;
+        width: 357px;
+        height: 42px;
+        text-align: center;
+    }
+    .Frequently .contant{
+        width: 357px !important;
+        height: 1428px !important;
+    }
+    .Frequently .contant .container{
+        width: 357px !important;
+        height: 1379px !important;
+        gap: 20px !important;
+    }
+    .Frequently .contant .container .row{
+        display: grid;
+    }
+    .Frequently .contant .container .row #card1{
+        width: 357px;
+        height: 293px;
+        border-radius: 10px;
+        padding: 30px;
+        gap: 20px;
+    }
+    .Frequently .contant .container .row #card1 h1{
+        font-size: 18px;
+        width: 297px;
+        height: 46px;
+    }
+    .Frequently .contant .container .row #card1 .line{
+        width: 297px;
+    }
+    .Frequently .contant .container .row #card1 p{
+        width: 297px;
+        height: 147px;
+        font-size: 14px;
+    }
+    .Frequently .contant .container .row #card2{
+        width: 357px;
+        height: 356px;
+        border-radius: 10px;
+        padding: 30px;
+        gap: 20px;
+    }
+    .Frequently .contant .container .row  h1{
+        width: 297px;
+        height: 46px;
+        font-size: 18px;
+    }
+    .Frequently .contant .container .row #card2 .line{
+        width: 297px;
+    }
+    .Frequently .contant .container .row #card2 p{
+        font-size: 14px;
+        width: 297px;
+        height: 210px;
+    }
+    .Frequently .contant .container .row #card3{
+        width: 357px ;
+        height: 335px;
+        border-radius: 10px;
+        padding: 30px;
+        gap: 20px;
+        mask-image: none;
+        -webkit-mask-image: none;
+    
+    }
+    .Frequently .contant .container .row #card3 p{
+        font-size: 14px;
+        width: 297px;
+        height: 189px;
+        mask-image: none;
+        -webkit-mask-image: none;
+    
+    }
+    .Frequently .contant .container .row #card3 .line{
+        width: 297px;
+    }
+    .Frequently .contant .container .row #card4{
+        width: 357px;
+        height: 335px;
+        padding: 30px;
+        gap: 20px;
+        border-radius: 10px;
+    }
+    .Frequently .contant .container .row #card4 p{
+        font-size: 14px;
+        width: 297px;
+        height: 189px;
+    }
+    .Frequently .contant .container .row #card4 .line{
+        width: 297px;
+    }
+    .Frequently .contant button{
+        margin-left: 118px;
+    }
+    .your-caree{
+        top: 7876px!important;
+        left:16px !important;
+        width: 358px !important;
+        height: 360px !important;
+        padding: 30px !important;
+        display: grid !important;
+        gap: 0 !important;
+    }
+    .your-caree img{
+        width: 151px !important;
+        height: 143px !important;
+    }
+    .your-caree .info{
+        width: 298px !important;
+        height: 227px !important;
+        gap: 14px !important;
+    }
+    .your-caree .info h1{
+        width: 298px !important;
+        height: 108px !important;
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .your-caree .info p{
+        width: 298px !important;
+        height: 105px !important;
+        font-size: 14px !important;
+        text-align: center;
+    }
+    .your-caree .info  button{
+        width: 147px;
+        padding: 14px 24px 14px 24px;
+        margin-left: 77px;
+        margin-top: 24px;
+    }
+    footer{
+        top:8316px !important ;
+        width: 390px !important;
+        height: 503px !important;
+        padding: 50px 16px 30px 16px !important;
+        gap: 30px !important;
+    }
+    footer .info{
+        width: 358px !important;
+        height: 79px !important;
+        gap: 24px !important;
+    }
+    footer .contact-us{
+        width: 358px !important;
+        height: 62px !important;
+        gap: 20px !important;
+        justify-content: center;
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    footer .info .logo{
+        margin-left: 128px !important;
+    }
+    footer .contact-us .phone p{
+        width: 128px;
+        height: 21px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .info .nav-links{
+        width: 234px !important;
+        height: 21px !important;
+        gap: 14px !important;
+        margin-left: 78px !important;
+    }
+    footer .info .nav-links a{
+        font-size: 14px !important;
+    }
+    footer .contact-us .email{
+        width: 174px !important;
+        height: 21px !important;
+        border-radius: 6px !important;
+        gap: 6px !important;
+    }
+    footer .contact-us .email p{
+        font-size: 14px !important;
+        width:148px !important;
+        height: 21px !important;
+    }
+    footer .line{
+        width:358px !important;
+    }
+    footer .about-us{
+        width: 358px !important;
+        height: 162px !important;
+        display: grid !important;
+        background-color: #1C1C1C !important;
+        border: #1C1C1C !important;
+    }
+    footer .about-us .left-section{
+        width: 148px !important;
+        height: 44px !important;
+        gap: 8px !important;
+        display: flex;
+        background-color: #1C1C1C;
+        position: absolute !important;
+        top: 305px !important;
+        left: 121px !important;
+    }
+    footer .about-us .center-section {
+        width: 358px !important;
+        height: 142px !important;
+        background-color: #1A1A1A !important;
+        border-radius: 12px !important;
+        border: 1px solid #262626 !important;
+        padding: 50px 24px 30px 12px !important;
+        gap: 20px !important;
+        display: grid;
+        text-align: center;
+    }
+    footer .about-us .right-sectain{
+        text-align: center;
+        margin-left: 64.5px;
+    }
+}
+.Job-Openings .contant .about .Requirements{
+    width: 550px!important;
+    height:246px !important;
+    gap: 16PX;
+    display: grid;
+}
+.Job-Openings .contant .about .Requirements .Requirements_1{
+    width:550px ;
+    height: 24px;
+    gap:8px; 
+    display: flex;
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_2{
+    width: 550px;
+    height: 48px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_3{
+    width: 550px;
+    height: 24px;
+    gap: 8px;
+    display: flex; 
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_4{
+    width: 550px;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.Job-Openings .contant .about .Requirements .Requirements_5{
+    width: 550px;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
