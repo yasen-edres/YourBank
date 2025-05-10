@@ -10,6 +10,7 @@ body{
     height: 6089px;
     background-color: #1A1A1A;
     font-family: 'Lexend', sans-serif;
+    overflow-x: hidden;
 }
 p,h1{
     margin-bottom: 0 !important;/*for bootstrap*/
