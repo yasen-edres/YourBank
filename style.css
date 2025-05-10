@@ -1,4 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --tooltip-margin: 12px;
+  --arrow-size: 6px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 9999;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  max-width: 200px;
+  direction: rtl;
+}
+
+.tooltip::before,
+.tooltip::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  display: block;
+  width: 0;
+}
+
+.tooltip[data-placement^="top"] {
+  inset-block-end: calc(100% + var(--tooltip-margin));
+}
+
+.tooltip[data-placement^="top"]::before {
+  inset-block-start: 100%;
+  inset-inline-start: calc(50% - var(--arrow-size));
+  border-width: var(--arrow-size) var(--arrow-size) 0 var(--arrow-size);
+  border-color: #ccc transparent transparent transparent;
+}
+
+.tooltip[data-placement^="top"]::after {
+  inset-block-start: calc(100% - 1px);
+  inset-inline-start: calc(50% - var(--arrow-size));
+  border-width: var(--arrow-size) var(--arrow-size) 0 var(--arrow-size);
+  border-color: #fff transparent transparent transparent;
+}
+
+.tooltip[data-placement^="bottom"] {
+  inset-block-start: calc(100% + var(--tooltip-margin));
+}
+
+.tooltip[data-placement^="bottom"]::before {
+  inset-block-end: 100%;
+  inset-inline-start: calc(50% - var(--arrow-size));
+  border-width: 0 var(--arrow-size) var(--arrow-size) var(--arrow-size);
+  border-color: transparent transparent #ccc transparent;
+}
+
+.tooltip[data-placement^="bottom"]::after {
+  inset-block-end: calc(100% - 1px);
+  inset-inline-start: calc(50% - var(--arrow-size));
+  border-width: 0 var(--arrow-size) var(--arrow-size) var(--arrow-size);
+  border-color: transparent transparent #fff transparent;
+}
+
+.tooltip[data-placement^="left"] {
+  inset-inline-end: calc(100% + var(--tooltip-margin));
+}
+
+.tooltip[data-placement^="left"]::before {
+  inset-inline-start: 100%;
+  inset-block-start: calc(50% - var(--arrow-size));
+  border-width: var(--arrow-size) 0 var(--arrow-size) var(--arrow-size);
+  border-color: transparent transparent transparent #ccc;
+}
+
+.tooltip[data-placement^="left"]::after {
+  inset-inline-start: calc(100% - 1px);
+  inset-block-start: calc(50% - var(--arrow-size));
+  border-width: var(--arrow-size) 0 var(--arrow-size) var(--arrow-size);
+  border-color: transparent transparent transparent #fff;
+}
+
+.tooltip[data-placement^="right"] {
+  inset-inline-start: calc(100% + var(--tooltip-margin));
+}
+
+.tooltip[data-placement^="right"]::before {
+  inset-inline-end: 100%;
+  inset-block-start: calc(50% - var(--arrow-size));
+  border-width: var(--arrow-size) var(--arrow-size) var(--arrow-size) 0;
+  border-color: transparent #ccc transparent transparent;
+}
+
+.tooltip[data-placement^="right"]::after {
+  inset-inline-end: calc(100% - 1px);
+  inset-block-start: calc(50% - var(--arrow-size));
+  border-width: var(--arrow-size) var(--arrow-size) var(--arrow-size) 0;
+  border-color: transparent #fff transparent transparent;
+}
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +114,7 @@
 body{
     width: 1440px;
     height: 6089px;
-    background-color: #1A1A1A;
+    background-color: #1A1A1;
     font-family: 'Lexend', sans-serif;
     overflow-x: hidden;
 }
