@@ -8,7 +8,7 @@
 body{
     width: 1440px;
     height: 6089px;
-    background-color: #1A1A1;
+    background-color: #1A1A1A;
     font-family: 'Lexend', sans-serif;
     overflow-x: hidden;
 }
@@ -1157,6 +1157,9 @@ footer .about-us .right-sectain .line{
     background-color: #B3B3B3;
 }
 @media (max-width:570px){
+     body{
+        overflow-x: hidden;
+    }
     .nav{
         width: 358px;
         height: 68px;
